@@ -5,7 +5,6 @@ Created on Tue Aug 27 10:45:02 2024
 @author: bsms9zh8
 """
 
-#test comment 2
 
 # This is the main script for a task investigating repetition suppression of the heartbeat-evoked potential. Some key details: 
     
