@@ -3,7 +3,7 @@ from psychopy import visual, core
 
 def create_stimuli(win):
   
-   
+  
   ### INSTRUCTIONS
    instruction_one_str = "Welcome to this part of the experiment! Click the space bar to continue."
    instruction_two_str = "In this experiment, you will be shown different faces. Please pay attention to the faces"
@@ -15,6 +15,9 @@ def create_stimuli(win):
    instructions_three = psychopy.visual.TextStim(win, text = instruction_three_str, height = 0.80)
    instructions_four = psychopy.visual.TextStim(win, text = instruction_four_str, height = 0.80)
 
+   ### Colours ###
+  grey = '#808080'
+   
   
   ### FIXATION CROSS WHITE 
     horiz_line_fixation_start = [-25, 0]
@@ -68,24 +71,24 @@ def create_stimuli(win):
 
 
   ### LEFT POINTING RED ARROW
-   arrow = visuak,TextStim(win, text='<', color='red', height=0.2) # not sure about height?
-   arrow.draw()
+   arrow_left = visual.TextStim(win, text='<', color='red', height=0.2) # not sure about height?
+   arrow_left.draw()
    win.flip()
    core.wait(2) # how long should the arrow show? 
    win.close() # not sure we need to close the window? 
 
  ### RIGHT POINTING RED ARROW 
-   arrow = visuak,TextStim(win, text='>', color='red', height=0.2) # not sure about height?
-   arrow.draw()
+   arrow_right = visual.TextStim(win, text='>', color='red', height=0.2) # not sure about height?
+   arrow_right.draw()
    win.flip()
    core.wait(2) # how long should the arrow show? 
    win.close() # not sure we need to close the window? 
 
 
   ### Images - path to where the images will be saved
-TO BE ADDED 
-
-
+###TO BE ADDED 
+   
+   return instructions_one, instructions_two, arrow_left 
 
 
 
