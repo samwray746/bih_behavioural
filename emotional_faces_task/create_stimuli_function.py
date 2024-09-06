@@ -44,7 +44,7 @@ def create_stimuli(win):
     fixation_cross_horizontal_white.start = horiz_line_fixation_start
     fixation_cross_horizontal_white.end = horiz_line_fixation_end
 
-  ### FICATION CROSS RED
+  ### FICATION CROSS RED --> need to change the name to have 'fixation_cross_red'. Now we have the vertical and horizontal line seperate.
     horiz_line_fixation_start = [-25, 0]
     horiz_line_fixation_end = [25, 0]
 
