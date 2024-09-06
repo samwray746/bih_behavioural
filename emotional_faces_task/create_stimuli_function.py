@@ -26,23 +26,23 @@ def create_stimuli(win):
     vert_line_fixation_start = [0, 25]
     vert_line_fixation_end = [0, -25]
      
-    fixation_cross_vertical = psychopy.visual.Line(
+    fixation_cross_vertical_white = psychopy.visual.Line(
     win=win,
     units="pix",
     lineWidth = 5,
     lineColor=grey)
 
-    fixation_cross_horizontal = psychopy.visual.Line(
+    fixation_cross_horizontal_white = psychopy.visual.Line(
     win=win,
     units="pix",
     lineWidth = 5,
     lineColor=grey)
 
-    fixation_cross_vertical.start = vert_line_fixation_start
-    fixation_cross_vertical.end = vert_line_fixation_end
+    fixation_cross_vertical_white.start = vert_line_fixation_start
+    fixation_cross_vertical_white.end = vert_line_fixation_end
 
-    fixation_cross_horizontal.start = horiz_line_fixation_start
-    fixation_cross_horizontal.end = horiz_line_fixation_end
+    fixation_cross_horizontal_white.start = horiz_line_fixation_start
+    fixation_cross_horizontal_white.end = horiz_line_fixation_end
 
   ### FICATION CROSS RED
     horiz_line_fixation_start = [-25, 0]
@@ -51,22 +51,22 @@ def create_stimuli(win):
     vert_line_fixation_start = [0, 25]
     vert_line_fixation_end = [0, -25]
      
-    fixation_cross_vertical = psychopy.visual.Line(
+    fixation_cross_vertical_red = psychopy.visual.Line(
     win=win,
     units="pix",
     lineWidth = 5,
     lineColor=red)
 
-    fixation_cross_horizontal = psychopy.visual.Line(
+    fixation_cross_horizontal_red = psychopy.visual.Line(
     win=win,
     units="pix",
     lineWidth = 5,
     lineColor=red)
 
-    fixation_cross_vertical.start = vert_line_fixation_start
+    fixation_cross_vertical_red.start = vert_line_fixation_start
     fixation_cross_vertical.end = vert_line_fixation_end
 
-    fixation_cross_horizontal.start = horiz_line_fixation_start
+    fixation_cross_horizontal_red.start = horiz_line_fixation_start
     fixation_cross_horizontal.end = horiz_line_fixation_end
 
 
@@ -88,7 +88,7 @@ def create_stimuli(win):
   ### Images - path to where the images will be saved
 ###TO BE ADDED 
    
-   return instructions_one, instructions_two, arrow_left 
+   return instructions_one, instructions_two, instructions_three, instructions_four, arrow_left, arrow_right, fixation_cross_vertical_white, fixation_cross_horizontal_white, fixation_cross_vertical_red, fixation_cross_horizontal_red
 
 
 
