@@ -20,4 +20,6 @@ def instructions(win, instructions_one, instructions_two, instructions_three, in
     win.flip()
     training_instructions_five.draw()
     win.flip()
+    event.waitKeys(keyList=['space'])
+    win.flip()
    
