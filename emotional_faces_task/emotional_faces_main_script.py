@@ -60,6 +60,10 @@ n_1, d_1, n_2, d_2, n_3, d_3, n_4, d_4, n_5, d_5, n_6, d_6, n_7, d_7, n_8, d_8, 
 ### INSTRUCTIONS ### 
 instructions(win, instructions_one, instructions_two, instructions_three, instructions_four, instructions_five)
 
+### TRAINING BLOCK ### 
+
+# Insert code here 
+
 ### EXPERIMENTAL BLOCK FUNCTIONS ### 
 ## Functions need to be written - remove comment when done ## 
 if order == 1: # experimental blocks run in order 'cue_useful', 'cue_sometimes_useful', 'cue_useless'
