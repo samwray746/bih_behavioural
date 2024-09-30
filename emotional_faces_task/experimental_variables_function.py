@@ -13,6 +13,8 @@ def experimental_variables(win):
     iti = [1.5, 1.6, 1.7, 1.8, 1.9, 2.0, 2.1, 2.2, 2.3, 2.4, 2.5] # inter-trial interval
     isi = 0.5
     stim_pres = 0.5
+
+    return experiment_clock, countdown, fr, one_frame, blocks_per_condition, trials_per_block, iti, isi, stim_pres
   
 
   
