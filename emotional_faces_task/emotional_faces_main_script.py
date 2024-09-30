@@ -12,6 +12,7 @@ Created on Tue Aug 27 10:45:02 2024
 
 # - There will be 21 experimental blocks, with each block consisting of 40 trials (40 being the number of actors in the NimStim dataset)
 # - In each trial, the same identity face will be presented for 500ms, interspersed with a 500ms fixation cross
+# - The inter-trial interval will be jittered between 1.5-2.5 seconds
 # - During a repetition trial, face presentations are identical (D-D or N-N)
 # - During an alternation trial, the face presentations are non-identical (D-N or N-D)
 
