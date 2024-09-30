@@ -91,7 +91,7 @@ if order == 3: # experimental blocks run in order 'cue_sometimes_useful', 'cue_u
     eb_s_useful('all_relevant_variables')
     save_experimental_block('all_relevant_variables')
 
-    eb_s_useless('all_relevant_variables')
+    eb_useless('all_relevant_variables')
     save_experimental_block('all_relevant_variables')
 
     eb_useful('all_relevant_variables')
@@ -101,10 +101,30 @@ if order == 4: # experimental blocks run in order 'cue_sometimes_useful','cue_us
     eb_s_useful('all_relevant_variables')
     save_experimental_block('all_relevant_variables')
 
-    eb_s_useful('all_relevant_variables')
+    eb_useful('all_relevant_variables')
     save_experimental_block('all_relevant_variables')
 
     eb_useless('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+if order == 5: # experimental blocks run in order 'cue_useless','cue_useful', 'cue_s_useful'
+    eb_useless('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+    eb_useful('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+    eb_s_useful('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+if order == 6: # experimental blocks run in order 'cue_useless','cue_s_useful', 'cue_useful'
+    eb_useless('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+    eb_s_useful('all_relevant_variables')
+    save_experimental_block('all_relevant_variables')
+
+    eb_useful('all_relevant_variables')
     save_experimental_block('all_relevant_variables')
 
 
