@@ -17,7 +17,7 @@ Created on Tue Aug 27 10:45:02 2024
 # - During an alternation trial, the face presentations are non-identical (D-N or N-D)
 
 # - Trials are presented in three stimulus contexts, which each occur in 7 blocks: 1) Cue-useful blocks 2) Cue-sometimes useful blocks 3) Cue-useless blocks 
-# - During a cue-useful block, whenever the fixation cross is red/green/yellow (i.e., non-white), a repetition trial ALWAYS occurs
+# - During a cue-useful block, whenever the fixation cross is non-white, a repetition trial ALWAYS occurs
 # - During a cue-sometimes useful block, the non-white fixation cross predicts a repetition trial with 75% accuracy 
 # - During a cue-useless block, the non-white fixation cross predicts a repetition trial with 50% accuracy (i.e., chance)
 
@@ -66,8 +66,6 @@ n_1, d_1, n_2, d_2, n_3, d_3, n_4, d_4, n_5, d_5, n_6, d_6, n_7, d_7, n_8, d_8, 
 ### CREATING SAVE FILES ###
 data_wb, meta_data_wb, training_data_wb, save_file, save_metafile, save_trainingfile = save_file_modification(subject_id, total_blocks)
 
-
-
 ### INSTRUCTIONS ### 
 instructions(win, instructions_one, instructions_two, instructions_three, instructions_four, instructions_five)
 
@@ -76,6 +74,7 @@ instructions(win, instructions_one, instructions_two, instructions_three, instru
 # Insert code here 
 
 ### EXPERIMENTAL BLOCK FUNCTIONS ### 
+
 ## Functions need to be written - remove comment when done ## 
 if order == 1: # experimental blocks run in order 'cue_useful', 'cue_sometimes_useful', 'cue_useless'
     eb_useful('all_relevant_variables')
