@@ -46,4 +46,4 @@ def save_file_modification(subject_id, total_blocks):
     for header in range(len(variable_strings)): #pretty sure the same headers will be used, changed if there are any unique
         training_data_sheet.cell(1, header+1, variable_strings[header])
     
-    return data_wb, save_file
+    return data_wb, meta_data_wb, training_data_wb, save_file
