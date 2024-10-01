@@ -57,7 +57,7 @@ win = visual.Window(color = '#000000', fullscr = True, monitor="testMonitor", un
 win.mouseVisible = False
 
 ### CREATING VARIABLES ###
-experiment_clock, countdown, fr, one_frame, blocks_per_condition, n_blocks, trials_per_block, iti, isi, stim_pres = experimental_variables(win)
+experiment_clock, countdown, fr, one_frame, blocks_per_condition, total_blocks, trials_per_block, iti, isi, stim_pres = experimental_variables(win)
 
 ### CREATING STIMULI ### 
 # Note: n_1 and d_1 correspond to objects of the neutral and disgust image of 'actor 1', and so on with n_2, d_2...etc. 
